@@ -1,15 +1,19 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>GLOVANCE — Premium Web Templates & Services</title>
-  <meta name="description" content="GLOVANCE creates luxury, conversion-focused landing pages, portfolio templates, and digital assets. Buy templates or hire us to build your next site." />
+  <meta name="description"
+    content="GLOVANCE creates luxury, conversion-focused landing pages, portfolio templates, and digital assets. Buy templates or hire us to build your next site." />
   <meta name="theme-color" content="#0B0F14" />
   <!-- Open Graph -->
   <meta property="og:title" content="GLOVANCE — Premium Web Templates & Services" />
   <meta property="og:description" content="Luxury-grade web templates and landing pages that convert." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://glovance.example" />
+  <meta property="og:url" content="https://glovance.netlify.app/" />
+  <link rel="stylesheet" href="style.css">
   <!-- Tailwind (CDN for v1). For production, move to a build with purge. -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -35,7 +39,9 @@
     }
   </script>
   <style>
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+    }
   </style>
   <script type="application/ld+json">
   {
@@ -48,12 +54,14 @@
   }
   </script>
 </head>
+
 <body class="bg-ink text-gray-200 antialiased selection:bg-gold/20 selection:text-white">
   <!-- Header / Navbar -->
-  <header class="fixed top-0 inset-x-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-ink/70 bg-ink/90 border-b border-graphite/30">
+  <header
+    class="fixed top-0 inset-x-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-ink/70 bg-ink/90 border-b border-graphite/30">
     <div class="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-6 py-3">
       <a href="#home" class="flex items-center gap-2">
-        <div class="h-7 w-7 rounded bg-gradient-to-br from-gold to-yellow-600"></div>
+        <div class="h-7 w-7 rounded bg-gradient-to-br from-gold to-yellow-600"><img src="Logo.jpeg" alt=""></div>
         <span class="font-semibold tracking-wide text-white">GLOVANCE</span>
       </a>
       <nav aria-label="Primary" class="hidden md:block">
@@ -67,12 +75,16 @@
         </ul>
       </nav>
       <div class="flex items-center gap-3">
-        <a href="#products" class="hidden sm:inline-flex items-center gap-2 rounded-lg border border-gold/40 px-3 py-1.5 text-sm text-gold hover:bg-gold hover:text-ink transition">
+        <a href="#products"
+          class="hidden sm:inline-flex items-center gap-2 rounded-lg border border-gold/40 px-3 py-1.5 text-sm text-gold hover:bg-gold hover:text-ink transition">
           <span>Buy Templates</span>
         </a>
-        <button id="mobileToggle" class="md:hidden inline-flex items-center justify-center h-9 w-9 rounded-lg border border-graphite/60">
+        <button id="mobileToggle"
+          class="md:hidden inline-flex items-center justify-center h-9 w-9 rounded-lg border border-graphite/60">
           <span class="sr-only">Open menu</span>
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
         </button>
       </div>
     </div>
@@ -89,20 +101,28 @@
         </ul>
       </nav>
     </div>
-  </header>  <main id="home" class="pt-24">
+  </header>
+  <main id="home" class="pt-24">
     <!-- Hero -->
     <section class="relative">
-      <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(212,175,55,0.08),transparent_40%),radial-gradient(circle_at_80%_30%,rgba(0,210,255,0.08),transparent_40%)] pointer-events-none"></div>
+      <div
+        class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(212,175,55,0.08),transparent_40%),radial-gradient(circle_at_80%_30%,rgba(0,210,255,0.08),transparent_40%)] pointer-events-none">
+      </div>
       <div class="max-w-7xl mx-auto px-4 md:px-6 py-20 md:py-28">
         <div class="grid md:grid-cols-2 gap-10 items-center">
-          <div class="space-y-6 [--reveal:opacity-0 translate-y-6] opacity-0 translate-y-6 transition duration-700" data-reveal>
-            <h1 class="text-3xl md:text-5xl font-semibold text-white leading-tight">Premium Web Templates <span class="text-gold">Built to Convert</span>.</h1>
-            <p class="text-soft max-w-prose">GLOVANCE crafts luxury-grade landing pages and portfolio templates for founders, creators, and studios. Launch faster, look better, and sell more.</p>
+          <div class="space-y-6 [--reveal:opacity-0 translate-y-6] opacity-0 translate-y-6 transition duration-700"
+            data-reveal>
+            <h1 class="text-3xl md:text-5xl font-semibold text-white leading-tight">Premium Web Templates <span
+                class="text-gold">Built to Convert</span>.</h1>
+            <p class="text-soft max-w-prose">GLOVANCE crafts luxury-grade landing pages and portfolio templates for
+              founders, creators, and studios. Launch faster, look better, and sell more.</p>
             <div class="flex flex-wrap items-center gap-3">
-              <a href="#products" class="inline-flex items-center gap-2 rounded-xl bg-gold text-ink font-medium px-5 py-3 shadow-glow hover:brightness-110 transition">
+              <a href="#products"
+                class="inline-flex items-center gap-2 rounded-xl bg-gold text-ink font-medium px-5 py-3 shadow-glow hover:brightness-110 transition">
                 <span>Browse Templates</span>
               </a>
-              <a href="#services" class="inline-flex items-center gap-2 rounded-xl border border-cyan/40 text-cyan px-5 py-3 hover:bg-cyan/10 transition">
+              <a href="#services"
+                class="inline-flex items-center gap-2 rounded-xl border border-cyan/40 text-cyan px-5 py-3 hover:bg-cyan/10 transition">
                 <span>Hire GLOVANCE</span>
               </a>
             </div>
@@ -113,8 +133,11 @@
             </div>
           </div>
           <div class="md:justify-self-end opacity-0 translate-y-6 transition duration-700 delay-150" data-reveal>
-            <div class="w-full max-w-md aspect-[4/3] rounded-xl2 bg-gradient-to-br from-charcoal to-graphite border border-graphite/50 shadow-xl p-6">
-              <div class="h-full w-full rounded-lg border border-graphite/40 bg-ink/40 grid place-items-center text-soft">Preview Area
+            <div
+              class="w-full max-w-md aspect-[4/3] rounded-xl2 bg-gradient-to-br from-charcoal to-graphite border border-graphite/50 shadow-xl p-6">
+              <div
+                class="h-full w-full rounded-lg border border-graphite/40 bg-ink/40 grid place-items-center text-soft">
+                Preview Area
                 <!-- Later: embed product preview iframe or screenshots -->
               </div>
             </div>
@@ -122,256 +145,294 @@
         </div>
       </div>
     </section><!-- About -->
-<section id="about" class="py-20 md:py-28 border-t border-graphite/40">
-  <div class="max-w-6xl mx-auto px-4 md:px-6 grid md:grid-cols-3 gap-10 items-start">
-    <div class="md:col-span-1 opacity-0 translate-y-6 transition duration-700" data-reveal>
-      <h2 class="text-2xl md:text-3xl font-semibold text-white">About GLOVANCE</h2>
-      <p class="mt-3 text-soft">Mission-driven studio delivering premium front-end products and services.</p>
-    </div>
-    <div class="md:col-span-2 space-y-6 opacity-0 translate-y-6 transition duration-700 delay-100" data-reveal>
-      <p>Founded by Aun Ali, GLOVANCE exists to help founders and teams launch faster with beautiful, conversion-focused web experiences. We combine clean code, modern aesthetics, and obsessive attention to performance.</p>
-      <div class="grid sm:grid-cols-3 gap-4">
-        <div class="rounded-xl bg-charcoal border border-graphite/50 p-4">
-          <div class="text-gold font-semibold">Speed</div>
-          <p class="text-sm text-soft mt-1">Ship in days, not weeks.</p>
+    <section id="about" class="py-20 md:py-28 border-t border-graphite/40">
+      <div class="max-w-6xl mx-auto px-4 md:px-6 grid md:grid-cols-3 gap-10 items-start">
+        <div class="md:col-span-1 opacity-0 translate-y-6 transition duration-700" data-reveal>
+          <h2 class="text-2xl md:text-3xl font-semibold text-white">About GLOVANCE</h2>
+          <p class="mt-3 text-soft">Mission-driven studio delivering premium front-end products and services.</p>
         </div>
-        <div class="rounded-xl bg-charcoal border border-graphite/50 p-4">
-          <div class="text-gold font-semibold">Quality</div>
-          <p class="text-sm text-soft mt-1">Luxury typography & UI polish.</p>
-        </div>
-        <div class="rounded-xl bg-charcoal border border-graphite/50 p-4">
-          <div class="text-gold font-semibold">Conversion</div>
-          <p class="text-sm text-soft mt-1">Layouts that drive action.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Services -->
-<section id="services" class="py-20 md:py-28">
-  <div class="max-w-7xl mx-auto px-4 md:px-6">
-    <div class="text-center max-w-2xl mx-auto opacity-0 translate-y-6 transition duration-700" data-reveal>
-      <h2 class="text-2xl md:text-3xl font-semibold text-white">Services</h2>
-      <p class="text-soft mt-3">Fixed-price packages you can rely on. Custom work available on request.</p>
-    </div>
-    <div class="mt-10 grid md:grid-cols-3 gap-5">
-      <!-- Card -->
-      <article class="rounded-xl bg-charcoal border border-graphite/50 p-6 opacity-0 translate-y-6 transition duration-700" data-reveal>
-        <h3 class="text-white font-semibold">Starter Landing Page</h3>
-        <ul class="mt-3 space-y-2 text-sm text-soft">
-          <li>• 1-page site, responsive</li>
-          <li>• Basic copy polish</li>
-          <li>• Launch guidance</li>
-        </ul>
-        <div class="mt-5 flex items-center justify-between">
-          <span class="text-gold font-semibold">$149</span>
-          <a href="#contact" class="text-cyan hover:underline">Enquire →</a>
-        </div>
-      </article>
-      <article class="rounded-xl bg-charcoal border border-graphite/50 p-6 opacity-0 translate-y-6 transition duration-700 delay-100" data-reveal>
-        <div class="inline-flex items-center gap-2 text-xs text-ink bg-gold/90 px-2 py-1 rounded">Best Seller</div>
-        <h3 class="text-white font-semibold mt-2">Pro Landing Page</h3>
-        <ul class="mt-3 space-y-2 text-sm text-soft">
-          <li>• Advanced animations</li>
-          <li>• A/B-ready CTAs</li>
-          <li>• Performance & SEO pass</li>
-        </ul>
-        <div class="mt-5 flex items-center justify-between">
-          <span class="text-gold font-semibold">$299</span>
-          <a href="#contact" class="text-cyan hover:underline">Enquire →</a>
-        </div>
-      </article>
-      <article class="rounded-xl bg-charcoal border border-graphite/50 p-6 opacity-0 translate-y-6 transition duration-700 delay-200" data-reveal>
-        <h3 class="text-white font-semibold">Portfolio Template Setup</h3>
-        <ul class="mt-3 space-y-2 text-sm text-soft">
-          <li>• Deploy to Vercel/Netlify</li>
-          <li>• Brand customization</li>
-          <li>• CMS-ready blog (optional)</li>
-        </ul>
-        <div class="mt-5 flex items-center justify-between">
-          <span class="text-gold font-semibold">$199</span>
-          <a href="#contact" class="text-cyan hover:underline">Enquire →</a>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- Products -->
-<section id="products" class="py-20 md:py-28 border-t border-graphite/40">
-  <div class="max-w-7xl mx-auto px-4 md:px-6">
-    <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
-      <div class="opacity-0 translate-y-6 transition duration-700" data-reveal>
-        <h2 class="text-2xl md:text-3xl font-semibold text-white">Products / Templates</h2>
-        <p class="text-soft mt-2">Plug-and-play templates. Link to Gumroad for checkout.</p>
-      </div>
-      <div class="opacity-0 translate-y-6 transition duration-700 delay-100" data-reveal>
-        <div class="inline-flex items-center gap-2 text-sm">
-          <label for="sort" class="text-soft">Sort</label>
-          <select id="sort" class="bg-charcoal border border-graphite/60 rounded px-3 py-1">
-            <option value="new">Newest</option>
-            <option value="price-asc">Price: Low → High</option>
-            <option value="price-desc">Price: High → Low</option>
-          </select>
-        </div>
-      </div>
-    </div>
-
-    <!-- Grid -->
-    <div id="productGrid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-      <!-- Product Card Template (duplicate as needed) -->
-      <article class="product-card rounded-xl bg-charcoal border border-graphite/50 p-5 flex flex-col opacity-0 translate-y-6 transition duration-700" data-reveal data-price="49" data-date="2025-07-10">
-        <div class="flex items-center justify-between">
-          <h3 class="text-white font-semibold">Nova Landing</h3>
-          <span class="text-xs text-ink bg-gold/90 px-2 py-1 rounded">New</span>
-        </div>
-        <p class="text-sm text-soft mt-2">Minimal, high-converting SaaS landing page.</p>
-        <ul class="mt-3 text-sm text-soft space-y-1">
-          <li>• Tailwind + Vanilla JS</li>
-          <li>• Responsive & animated</li>
-          <li>• Email capture ready</li>
-        </ul>
-        <div class="mt-4 flex items-center justify-between">
-          <span class="text-gold font-semibold">$49</span>
-          <div class="flex items-center gap-2">
-            <button class="previewBtn text-cyan hover:underline" data-preview="nova">Preview</button>
-            <a class="text-ink bg-gold/90 hover:bg-gold text-sm px-3 py-1.5 rounded" href="#" target="_blank" rel="noopener">Buy</a>
+        <div class="md:col-span-2 space-y-6 opacity-0 translate-y-6 transition duration-700 delay-100" data-reveal>
+          <p>Founded by Aun Ali, GLOVANCE exists to help founders and teams launch faster with beautiful,
+            conversion-focused web experiences. We combine clean code, modern aesthetics, and obsessive attention to
+            performance.</p>
+          <div class="grid sm:grid-cols-3 gap-4">
+            <div class="rounded-xl bg-charcoal border border-graphite/50 p-4">
+              <div class="text-gold font-semibold">Speed</div>
+              <p class="text-sm text-soft mt-1">Ship in days, not weeks.</p>
+            </div>
+            <div class="rounded-xl bg-charcoal border border-graphite/50 p-4">
+              <div class="text-gold font-semibold">Quality</div>
+              <p class="text-sm text-soft mt-1">Luxury typography & UI polish.</p>
+            </div>
+            <div class="rounded-xl bg-charcoal border border-graphite/50 p-4">
+              <div class="text-gold font-semibold">Conversion</div>
+              <p class="text-sm text-soft mt-1">Layouts that drive action.</p>
+            </div>
           </div>
         </div>
-      </article>
+      </div>
+    </section>
 
-      <article class="product-card rounded-xl bg-charcoal border border-graphite/50 p-5 flex flex-col opacity-0 translate-y-6 transition duration-700" data-reveal data-price="29" data-date="2025-06-12">
-        <div class="flex items-center justify-between">
-          <h3 class="text-white font-semibold">Folio X</h3>
-          <span class="text-xs text-ink bg-amber-400/90 px-2 py-1 rounded">Updated</span>
+    <!-- Services -->
+    <section id="services" class="py-20 md:py-28">
+      <div class="max-w-7xl mx-auto px-4 md:px-6">
+        <div class="text-center max-w-2xl mx-auto opacity-0 translate-y-6 transition duration-700" data-reveal>
+          <h2 class="text-2xl md:text-3xl font-semibold text-white">Services</h2>
+          <p class="text-soft mt-3">Fixed-price packages you can rely on. Custom work available on request.</p>
         </div>
-        <p class="text-sm text-soft mt-2">Portfolio template for designers & devs.</p>
-        <ul class="mt-3 text-sm text-soft space-y-1">
-          <li>• Multipage layout</li>
-          <li>• Case study blocks</li>
-          <li>• Blog-ready</li>
-        </ul>
-        <div class="mt-4 flex items-center justify-between">
-          <span class="text-gold font-semibold">$29</span>
-          <div class="flex items-center gap-2">
-            <button class="previewBtn text-cyan hover:underline" data-preview="foliox">Preview</button>
-            <a class="text-ink bg-gold/90 hover:bg-gold text-sm px-3 py-1.5 rounded" href="#" target="_blank" rel="noopener">Buy</a>
+        <div class="mt-10 grid md:grid-cols-3 gap-5">
+          <!-- Card -->
+          <article
+            class="rounded-xl bg-charcoal border border-graphite/50 p-6 opacity-0 translate-y-6 transition duration-700"
+            data-reveal>
+            <h3 class="text-white font-semibold">Starter Landing Page</h3>
+            <ul class="mt-3 space-y-2 text-sm text-soft">
+              <li>• 1-page site, responsive</li>
+              <li>• Basic copy polish</li>
+              <li>• Launch guidance</li>
+            </ul>
+            <div class="mt-5 flex items-center justify-between">
+              <span class="text-gold font-semibold">$149</span>
+              <a href="#contact" class="text-cyan hover:underline">Enquire →</a>
+            </div>
+          </article>
+          <article
+            class="rounded-xl bg-charcoal border border-graphite/50 p-6 opacity-0 translate-y-6 transition duration-700 delay-100"
+            data-reveal>
+            <div class="inline-flex items-center gap-2 text-xs text-ink bg-gold/90 px-2 py-1 rounded">Best Seller</div>
+            <h3 class="text-white font-semibold mt-2">Pro Landing Page</h3>
+            <ul class="mt-3 space-y-2 text-sm text-soft">
+              <li>• Advanced animations</li>
+              <li>• A/B-ready CTAs</li>
+              <li>• Performance & SEO pass</li>
+            </ul>
+            <div class="mt-5 flex items-center justify-between">
+              <span class="text-gold font-semibold">$299</span>
+              <a href="#contact" class="text-cyan hover:underline">Enquire →</a>
+            </div>
+          </article>
+          <article
+            class="rounded-xl bg-charcoal border border-graphite/50 p-6 opacity-0 translate-y-6 transition duration-700 delay-200"
+            data-reveal>
+            <h3 class="text-white font-semibold">Portfolio Template Setup</h3>
+            <ul class="mt-3 space-y-2 text-sm text-soft">
+              <li>• Deploy to Vercel/Netlify</li>
+              <li>• Brand customization</li>
+              <li>• CMS-ready blog (optional)</li>
+            </ul>
+            <div class="mt-5 flex items-center justify-between">
+              <span class="text-gold font-semibold">$199</span>
+              <a href="#contact" class="text-cyan hover:underline">Enquire →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="py-20 md:py-28 border-t border-graphite/40">
+      <div class="max-w-7xl mx-auto px-4 md:px-6">
+        <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
+          <div class="opacity-0 translate-y-6 transition duration-700" data-reveal>
+            <h2 class="text-2xl md:text-3xl font-semibold text-white">Products / Templates</h2>
+            <p class="text-soft mt-2">Plug-and-play templates. Link to Gumroad for checkout.</p>
+          </div>
+          <div class="opacity-0 translate-y-6 transition duration-700 delay-100" data-reveal>
+            <div class="inline-flex items-center gap-2 text-sm">
+              <label for="sort" class="text-soft">Sort</label>
+              <select id="sort" class="bg-charcoal border border-graphite/60 rounded px-3 py-1">
+                <option value="new">Newest</option>
+                <option value="price-asc">Price: Low → High</option>
+                <option value="price-desc">Price: High → Low</option>
+              </select>
+            </div>
           </div>
         </div>
-      </article>
 
-      <article class="product-card rounded-xl bg-charcoal border border-graphite/50 p-5 flex flex-col opacity-0 translate-y-6 transition duration-700" data-reveal data-price="79" data-date="2025-05-02">
-        <div class="flex items-center justify-between">
-          <h3 class="text-white font-semibold">Commerce Lite</h3>
-          <span class="text-xs text-ink bg-green-400/90 px-2 py-1 rounded">Best Seller</span>
+        <!-- Grid -->
+        <div id="productGrid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <!-- Product Card Template (duplicate as needed) -->
+          <article
+            class="product-card rounded-xl bg-charcoal border border-graphite/50 p-5 flex flex-col opacity-0 translate-y-6 transition duration-700"
+            data-reveal data-price="49" data-date="2025-07-10">
+            <div class="flex items-center justify-between">
+              <h3 class="text-white font-semibold">Nova Landing</h3>
+              <span class="text-xs text-ink bg-gold/90 px-2 py-1 rounded">New</span>
+            </div>
+            <p class="text-sm text-soft mt-2">Minimal, high-converting SaaS landing page.</p>
+            <ul class="mt-3 text-sm text-soft space-y-1">
+              <li>• Tailwind + Vanilla JS</li>
+              <li>• Responsive & animated</li>
+              <li>• Email capture ready</li>
+            </ul>
+            <div class="mt-4 flex items-center justify-between">
+              <span class="text-gold font-semibold">$49</span>
+              <div class="flex items-center gap-2">
+                <button class="previewBtn text-cyan hover:underline" data-preview="nova">Preview</button>
+                <a class="text-ink bg-gold/90 hover:bg-gold text-sm px-3 py-1.5 rounded" href="#" target="_blank"
+                  rel="noopener">Buy</a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card rounded-xl bg-charcoal border border-graphite/50 p-5 flex flex-col opacity-0 translate-y-6 transition duration-700"
+            data-reveal data-price="29" data-date="2025-06-12">
+            <div class="flex items-center justify-between">
+              <h3 class="text-white font-semibold">Folio X</h3>
+              <span class="text-xs text-ink bg-amber-400/90 px-2 py-1 rounded">Updated</span>
+            </div>
+            <p class="text-sm text-soft mt-2">Portfolio template for designers & devs.</p>
+            <ul class="mt-3 text-sm text-soft space-y-1">
+              <li>• Multipage layout</li>
+              <li>• Case study blocks</li>
+              <li>• Blog-ready</li>
+            </ul>
+            <div class="mt-4 flex items-center justify-between">
+              <span class="text-gold font-semibold">$29</span>
+              <div class="flex items-center gap-2">
+                <button class="previewBtn text-cyan hover:underline" data-preview="foliox">Preview</button>
+                <a class="text-ink bg-gold/90 hover:bg-gold text-sm px-3 py-1.5 rounded" href="#" target="_blank"
+                  rel="noopener">Buy</a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="product-card rounded-xl bg-charcoal border border-graphite/50 p-5 flex flex-col opacity-0 translate-y-6 transition duration-700"
+            data-reveal data-price="79" data-date="2025-05-02">
+            <div class="flex items-center justify-between">
+              <h3 class="text-white font-semibold">Commerce Lite</h3>
+              <span class="text-xs text-ink bg-green-400/90 px-2 py-1 rounded">Best Seller</span>
+            </div>
+            <p class="text-sm text-soft mt-2">Lean storefront kit for digital goods.</p>
+            <ul class="mt-3 text-sm text-soft space-y-1">
+              <li>• Gumroad/Stripe ready</li>
+              <li>• Product grid & modals</li>
+              <li>• SEO optimized</li>
+            </ul>
+            <div class="mt-4 flex items-center justify-between">
+              <span class="text-gold font-semibold">$79</span>
+              <div class="flex items-center gap-2">
+                <button class="previewBtn text-cyan hover:underline" data-preview="commercelite">Preview</button>
+                <a class="text-ink bg-gold/90 hover:bg-gold text-sm px-3 py-1.5 rounded" href="#" target="_blank"
+                  rel="noopener">Buy</a>
+              </div>
+            </div>
+          </article>
         </div>
-        <p class="text-sm text-soft mt-2">Lean storefront kit for digital goods.</p>
-        <ul class="mt-3 text-sm text-soft space-y-1">
-          <li>• Gumroad/Stripe ready</li>
-          <li>• Product grid & modals</li>
-          <li>• SEO optimized</li>
-        </ul>
-        <div class="mt-4 flex items-center justify-between">
-          <span class="text-gold font-semibold">$79</span>
-          <div class="flex items-center gap-2">
-            <button class="previewBtn text-cyan hover:underline" data-preview="commercelite">Preview</button>
-            <a class="text-ink bg-gold/90 hover:bg-gold text-sm px-3 py-1.5 rounded" href="#" target="_blank" rel="noopener">Buy</a>
+      </div>
+    </section>
+
+    <!-- Testimonials / Case Studies -->
+    <section id="testimonials" class="py-20 md:py-28">
+      <div class="max-w-6xl mx-auto px-4 md:px-6">
+        <div class="text-center opacity-0 translate-y-6 transition duration-700" data-reveal>
+          <h2 class="text-2xl md:text-3xl font-semibold text-white">What Clients Say</h2>
+          <p class="text-soft mt-2">Social proof you can grow over time.</p>
+        </div>
+        <div class="mt-10 grid md:grid-cols-3 gap-5">
+          <figure
+            class="rounded-xl bg-charcoal border border-graphite/50 p-5 opacity-0 translate-y-6 transition duration-700"
+            data-reveal>
+            <blockquote class="text-sm text-soft">“GLOVANCE boosted our signups by 43%. Clean, fast, and on-brand.”
+            </blockquote>
+            <figcaption class="mt-3 text-white font-medium">— A. Khan, Founder</figcaption>
+          </figure>
+          <figure
+            class="rounded-xl bg-charcoal border border-graphite/50 p-5 opacity-0 translate-y-6 transition duration-700 delay-100"
+            data-reveal>
+            <blockquote class="text-sm text-soft">“Exceptional attention to detail and performance.”</blockquote>
+            <figcaption class="mt-3 text-white font-medium">— S. Patel, Studio Lead</figcaption>
+          </figure>
+          <figure
+            class="rounded-xl bg-charcoal border border-graphite/50 p-5 opacity-0 translate-y-6 transition duration-700 delay-200"
+            data-reveal>
+            <blockquote class="text-sm text-soft">“Launch in days, not weeks. Highly recommended.”</blockquote>
+            <figcaption class="mt-3 text-white font-medium">— M. Lee, Indie Dev</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 md:py-28 border-t border-graphite/40">
+      <div class="max-w-5xl mx-auto px-4 md:px-6 grid lg:grid-cols-2 gap-10 items-start">
+        <div class="opacity-0 translate-y-6 transition duration-700" data-reveal>
+          <h2 class="text-2xl md:text-3xl font-semibold text-white">Let’s Work Together</h2>
+          <p class="text-soft mt-2">Tell us about your project. We aim to reply within 24–48 hours.</p>
+          <div class="mt-6 text-sm text-soft">
+            <p>Email: <a href="mailto:hello@glovance.com" class="text-cyan hover:underline">hello@glovance.com</a></p>
           </div>
         </div>
-      </article>
-    </div>
-  </div>
-</section>
+        <form id="contactForm"
+          class="rounded-xl bg-charcoal border border-graphite/50 p-6 space-y-4 opacity-0 translate-y-6 transition duration-700"
+          data-reveal>
+          <div>
+            <label class="text-sm text-soft" for="name">Name</label>
+            <input id="name" name="name" required
+              class="mt-1 w-full rounded-lg bg-ink/60 border border-graphite/60 px-3 py-2 outline-none focus:ring-2 focus:ring-cyan/40" />
+          </div>
+          <div>
+            <label class="text-sm text-soft" for="email">Email</label>
+            <input id="email" name="email" type="email" required
+              class="mt-1 w-full rounded-lg bg-ink/60 border border-graphite/60 px-3 py-2 outline-none focus:ring-2 focus:ring-cyan/40" />
+          </div>
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="text-sm text-soft" for="type">Project Type</label>
+              <select id="type" name="type"
+                class="mt-1 w-full rounded-lg bg-ink/60 border border-graphite/60 px-3 py-2">
+                <option>Landing Page</option>
+                <option>Portfolio Template</option>
+                <option>Front-end Optimization</option>
+              </select>
+            </div>
+            <div>
+              <label class="text-sm text-soft" for="budget">Budget</label>
+              <select id="budget" name="budget"
+                class="mt-1 w-full rounded-lg bg-ink/60 border border-graphite/60 px-3 py-2">
+                <option>$100–$300</option>
+                <option>$300–$800</option>
+                <option>$800+</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label class="text-sm text-soft" for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required
+              class="mt-1 w-full rounded-lg bg-ink/60 border border-graphite/60 px-3 py-2"></textarea>
+          </div>
+          <!-- For now this can POST to Formspree/Netlify later -->
+          <button type="submit"
+            class="w-full rounded-xl bg-gold text-ink font-medium px-5 py-3 hover:brightness-110 transition">Send
+            Message</button>
+          <p id="contactNote" class="hidden text-emerald-400 text-sm">Thanks! Your message is ready to send.</p>
+        </form>
+      </div>
+    </section>
 
-<!-- Testimonials / Case Studies -->
-<section id="testimonials" class="py-20 md:py-28">
-  <div class="max-w-6xl mx-auto px-4 md:px-6">
-    <div class="text-center opacity-0 translate-y-6 transition duration-700" data-reveal>
-      <h2 class="text-2xl md:text-3xl font-semibold text-white">What Clients Say</h2>
-      <p class="text-soft mt-2">Social proof you can grow over time.</p>
-    </div>
-    <div class="mt-10 grid md:grid-cols-3 gap-5">
-      <figure class="rounded-xl bg-charcoal border border-graphite/50 p-5 opacity-0 translate-y-6 transition duration-700" data-reveal>
-        <blockquote class="text-sm text-soft">“GLOVANCE boosted our signups by 43%. Clean, fast, and on-brand.”</blockquote>
-        <figcaption class="mt-3 text-white font-medium">— A. Khan, Founder</figcaption>
-      </figure>
-      <figure class="rounded-xl bg-charcoal border border-graphite/50 p-5 opacity-0 translate-y-6 transition duration-700 delay-100" data-reveal>
-        <blockquote class="text-sm text-soft">“Exceptional attention to detail and performance.”</blockquote>
-        <figcaption class="mt-3 text-white font-medium">— S. Patel, Studio Lead</figcaption>
-      </figure>
-      <figure class="rounded-xl bg-charcoal border border-graphite/50 p-5 opacity-0 translate-y-6 transition duration-700 delay-200" data-reveal>
-        <blockquote class="text-sm text-soft">“Launch in days, not weeks. Highly recommended.”</blockquote>
-        <figcaption class="mt-3 text-white font-medium">— M. Lee, Indie Dev</figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
-
-<!-- Contact -->
-<section id="contact" class="py-20 md:py-28 border-t border-graphite/40">
-  <div class="max-w-5xl mx-auto px-4 md:px-6 grid lg:grid-cols-2 gap-10 items-start">
-    <div class="opacity-0 translate-y-6 transition duration-700" data-reveal>
-      <h2 class="text-2xl md:text-3xl font-semibold text-white">Let’s Work Together</h2>
-      <p class="text-soft mt-2">Tell us about your project. We aim to reply within 24–48 hours.</p>
-      <div class="mt-6 text-sm text-soft">
-        <p>Email: <a href="mailto:hello@glovance.com" class="text-cyan hover:underline">hello@glovance.com</a></p>
-      </div>
-    </div>
-    <form id="contactForm" class="rounded-xl bg-charcoal border border-graphite/50 p-6 space-y-4 opacity-0 translate-y-6 transition duration-700" data-reveal>
-      <div>
-        <label class="text-sm text-soft" for="name">Name</label>
-        <input id="name" name="name" required class="mt-1 w-full rounded-lg bg-ink/60 border border-graphite/60 px-3 py-2 outline-none focus:ring-2 focus:ring-cyan/40" />
-      </div>
-      <div>
-        <label class="text-sm text-soft" for="email">Email</label>
-        <input id="email" name="email" type="email" required class="mt-1 w-full rounded-lg bg-ink/60 border border-graphite/60 px-3 py-2 outline-none focus:ring-2 focus:ring-cyan/40" />
-      </div>
-      <div class="grid sm:grid-cols-2 gap-4">
-        <div>
-          <label class="text-sm text-soft" for="type">Project Type</label>
-          <select id="type" name="type" class="mt-1 w-full rounded-lg bg-ink/60 border border-graphite/60 px-3 py-2">
-            <option>Landing Page</option>
-            <option>Portfolio Template</option>
-            <option>Front-end Optimization</option>
-          </select>
-        </div>
-        <div>
-          <label class="text-sm text-soft" for="budget">Budget</label>
-          <select id="budget" name="budget" class="mt-1 w-full rounded-lg bg-ink/60 border border-graphite/60 px-3 py-2">
-            <option>$100–$300</option>
-            <option>$300–$800</option>
-            <option>$800+</option>
-          </select>
+    <!-- CTA Band -->
+    <section class="py-16 bg-gradient-to-r from-charcoal to-graphite border-t border-graphite/40">
+      <div class="max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+        <h3 class="text-xl md:text-2xl font-semibold">Ready to launch faster with a premium look?</h3>
+        <div class="flex items-center gap-3">
+          <a href="#products"
+            class="inline-flex items-center gap-2 rounded-xl bg-gold text-ink font-medium px-5 py-3 hover:brightness-110 transition">Browse
+            Templates</a>
+          <a href="#services"
+            class="inline-flex items-center gap-2 rounded-xl border border-cyan/40 text-cyan px-5 py-3 hover:bg-cyan/10 transition">Hire
+            GLOVANCE</a>
         </div>
       </div>
-      <div>
-        <label class="text-sm text-soft" for="message">Message</label>
-        <textarea id="message" name="message" rows="4" required class="mt-1 w-full rounded-lg bg-ink/60 border border-graphite/60 px-3 py-2"></textarea>
-      </div>
-      <!-- For now this can POST to Formspree/Netlify later -->
-      <button type="submit" class="w-full rounded-xl bg-gold text-ink font-medium px-5 py-3 hover:brightness-110 transition">Send Message</button>
-      <p id="contactNote" class="hidden text-emerald-400 text-sm">Thanks! Your message is ready to send.</p>
-    </form>
-  </div>
-</section>
+    </section>
 
-<!-- CTA Band -->
-<section class="py-16 bg-gradient-to-r from-charcoal to-graphite border-t border-graphite/40">
-  <div class="max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-6">
-    <h3 class="text-xl md:text-2xl font-semibold">Ready to launch faster with a premium look?</h3>
-    <div class="flex items-center gap-3">
-      <a href="#products" class="inline-flex items-center gap-2 rounded-xl bg-gold text-ink font-medium px-5 py-3 hover:brightness-110 transition">Browse Templates</a>
-      <a href="#services" class="inline-flex items-center gap-2 rounded-xl border border-cyan/40 text-cyan px-5 py-3 hover:bg-cyan/10 transition">Hire GLOVANCE</a>
-    </div>
-  </div>
-</section>
-
-  </main>  <footer class="border-t border-graphite/40">
+  </main>
+  <footer class="border-t border-graphite/40">
     <div class="max-w-7xl mx-auto px-4 md:px-6 py-10 grid sm:grid-cols-3 gap-6 text-sm">
       <div>
         <div class="flex items-center gap-2">
-          <div class="h-6 w-6 rounded bg-gradient-to-br from-gold to-yellow-600"></div>
+          <div class="h-6 w-6 rounded bg-gradient-to-br from-gold to-yellow-600"><img src="Logo.jpeg" alt=""></div>
           <span class="font-semibold">GLOVANCE</span>
         </div>
         <p class="text-soft mt-3">Premium templates and front-end services for brands that care about craft.</p>
@@ -388,24 +449,30 @@
       <div>
         <div class="text-white font-medium">Newsletter</div>
         <form id="newsletter" class="mt-2 flex gap-2">
-          <input required type="email" placeholder="you@domain.com" class="flex-1 rounded-lg bg-ink/60 border border-graphite/60 px-3 py-2" />
+          <input required type="email" placeholder="you@domain.com"
+            class="flex-1 rounded-lg bg-ink/60 border border-graphite/60 px-3 py-2" />
           <button class="rounded-lg bg-gold text-ink px-4 py-2">Join</button>
         </form>
       </div>
     </div>
-    <div class="border-t border-graphite/40 py-4 text-center text-xs text-soft">© 2025 GLOVANCE. All rights reserved.</div>
-  </footer>  <!-- Lightbox Modal (Preview) -->  <div id="lightbox" class="hidden fixed inset-0 z-50 bg-black/80 grid place-items-center p-4">
+    <div class="border-t border-graphite/40 py-4 text-center text-xs text-soft">© 2025 GLOVANCE. All rights reserved.
+    </div>
+  </footer> <!-- Lightbox Modal (Preview) -->
+  <div id="lightbox" class="hidden fixed inset-0 z-50 bg-black/80 grid place-items-center p-4">
     <div class="relative w-full max-w-3xl rounded-xl bg-ink border border-graphite/60 shadow-2xl">
-      <button id="closeLightbox" class="absolute -top-3 -right-3 h-10 w-10 rounded-full bg-gold text-ink font-bold">×</button>
+      <button id="closeLightbox"
+        class="absolute -top-3 -right-3 h-10 w-10 rounded-full bg-gold text-ink font-bold">×</button>
       <div class="p-5">
         <h4 id="lightboxTitle" class="text-white font-semibold">Preview</h4>
-        <div id="lightboxBody" class="mt-4 aspect-[16/9] rounded-lg bg-charcoal border border-graphite/50 grid place-items-center text-soft">
+        <div id="lightboxBody"
+          class="mt-4 aspect-[16/9] rounded-lg bg-charcoal border border-graphite/50 grid place-items-center text-soft">
           <!-- Placeholder content. Later: iframe demo or screenshots -->
           Preview goes here.
         </div>
       </div>
     </div>
-  </div>  <script>
+  </div>
+  <script>
     // Mobile nav toggle
     const mobileToggle = document.getElementById('mobileToggle');
     const mobileNav = document.getElementById('mobileNav');
@@ -418,8 +485,8 @@
     const io = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          entry.target.classList.remove('opacity-0','translate-y-6');
-          entry.target.classList.add('opacity-100','translate-y-0');
+          entry.target.classList.remove('opacity-0', 'translate-y-6');
+          entry.target.classList.add('opacity-100', 'translate-y-0');
           io.unobserve(entry.target);
         }
       });
@@ -470,5 +537,7 @@
       e.preventDefault();
       alert('Thanks for subscribing!');
     });
-  </script></body>
+  </script>
+</body>
+
 </html>
