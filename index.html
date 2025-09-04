@@ -14,7 +14,6 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://glovance.netlify.app/" />
   <link rel="stylesheet" href="style.css">
-  <!-- Tailwind (CDN for v1). For production, move to a build with purge. -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -56,7 +55,6 @@
 </head>
 
 <body class="bg-ink text-gray-200 antialiased selection:bg-gold/20 selection:text-white">
-  <!-- Header / Navbar -->
   <header
     class="fixed top-0 inset-x-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-ink/70 bg-ink/90 border-b border-graphite/30">
     <div class="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-6 py-3">
@@ -88,7 +86,6 @@
         </button>
       </div>
     </div>
-    <!-- Mobile Drawer -->
     <div id="mobileNav" class="md:hidden hidden border-t border-graphite/40 bg-charcoal">
       <nav class="max-w-7xl mx-auto px-4 py-3">
         <ul class="grid gap-3 text-sm">
@@ -103,7 +100,6 @@
     </div>
   </header>
   <main id="home" class="pt-24">
-    <!-- Hero -->
     <section class="relative">
       <div
         class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(212,175,55,0.08),transparent_40%),radial-gradient(circle_at_80%_30%,rgba(0,210,255,0.08),transparent_40%)] pointer-events-none">
@@ -138,13 +134,12 @@
               <div
                 class="h-full w-full rounded-lg border border-graphite/40 bg-ink/40 grid place-items-center text-soft">
                 Preview Area
-                <!-- Later: embed product preview iframe or screenshots -->
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section><!-- About -->
+    </section>
     <section id="about" class="py-20 md:py-28 border-t border-graphite/40">
       <div class="max-w-6xl mx-auto px-4 md:px-6 grid md:grid-cols-3 gap-10 items-start">
         <div class="md:col-span-1 opacity-0 translate-y-6 transition duration-700" data-reveal>
@@ -173,7 +168,6 @@
       </div>
     </section>
 
-    <!-- Services -->
     <section id="services" class="py-20 md:py-28">
       <div class="max-w-7xl mx-auto px-4 md:px-6">
         <div class="text-center max-w-2xl mx-auto opacity-0 translate-y-6 transition duration-700" data-reveal>
@@ -181,7 +175,6 @@
           <p class="text-soft mt-3">Fixed-price packages you can rely on. Custom work available on request.</p>
         </div>
         <div class="mt-10 grid md:grid-cols-3 gap-5">
-          <!-- Card -->
           <article
             class="rounded-xl bg-charcoal border border-graphite/50 p-6 opacity-0 translate-y-6 transition duration-700"
             data-reveal>
@@ -199,7 +192,6 @@
           <article
             class="rounded-xl bg-charcoal border border-graphite/50 p-6 opacity-0 translate-y-6 transition duration-700 delay-100"
             data-reveal>
-            <!-- <div class="inline-flex items-center gap-2 text-xs text-ink bg-gold/90 px-2 py-1 rounded">Best Seller</div> -->
             <h3 class="text-white font-semibold mt-2">Complete Business Website</h3>
             <ul class="mt-3 space-y-2 text-sm text-soft">
               <li>• Multi-page professional website</li>
@@ -229,7 +221,6 @@
       </div>
     </section>
 
-    <!-- Products -->
     <section id="products" class="py-20 md:py-28 border-t border-graphite/40">
       <div class="max-w-7xl mx-auto px-4 md:px-6">
         <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
@@ -249,15 +240,12 @@
           </div>
         </div>
 
-        <!-- Grid -->
         <div id="productGrid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          <!-- Product Card Template (duplicate as needed) -->
           <article
             class="product-card rounded-xl bg-charcoal border border-graphite/50 p-5 flex flex-col opacity-0 translate-y-6 transition duration-700"
             data-reveal data-price="49" data-date="2025-07-10">
             <div class="flex items-center justify-between">
               <h3 class="text-white font-semibold">Freelancer Portfolio Template</h3>
-              <!-- <span class="text-xs text-ink bg-gold/90 px-2 py-1 rounded">New</span> -->
             </div>
             <p class="text-sm text-soft mt-2">(Dark Edition v1.0)</p>
             <ul class="mt-3 text-sm text-soft space-y-1">
@@ -281,7 +269,6 @@
             data-reveal data-price="29" data-date="2025-06-12">
             <div class="flex items-center justify-between">
               <h3 class="text-white font-semibold">Developer Portfolio Template Pack (3-in-1)</h3>
-              <!-- <span class="text-xs text-ink bg-amber-400/90 px-2 py-1 rounded">Best Seller</span> -->
             </div>
             <p class="text-sm text-soft mt-2">Build your online presence the right way.</p>
             <ul class="mt-3 text-sm text-soft space-y-1">
@@ -305,7 +292,6 @@
             data-reveal data-price="79" data-date="2025-05-02">
             <div class="flex items-center justify-between">
               <h3 class="text-white font-semibold">Freelancer Launch Kit</h3>
-              <!-- <span class="text-xs text-ink bg-green-400/90 px-2 py-1 rounded">Best Seller</span> -->
             </div>
             <p class="text-sm text-soft mt-2">Get Your First Client, Even if You're Just Starting.</p>
             <ul class="mt-3 text-sm text-soft space-y-1">
@@ -328,7 +314,6 @@
       </div>
     </section>
 
-    <!-- Testimonials / Case Studies -->
     <section id="testimonials" class="py-20 md:py-28">
       <div class="max-w-6xl mx-auto px-4 md:px-6">
         <div class="text-center opacity-0 translate-y-6 transition duration-700" data-reveal>
@@ -359,7 +344,6 @@
       </div>
     </section>
 
-    <!-- Contact -->
     <section id="contact" class="py-20 md:py-28 border-t border-graphite/40">
       <div class="max-w-5xl mx-auto px-4 md:px-6 grid lg:grid-cols-2 gap-10 items-start">
         <div class="opacity-0 translate-y-6 transition duration-700" data-reveal>
@@ -417,7 +401,6 @@
       </div>
     </section>
 
-    <!-- CTA Band -->
     <section class="py-16 bg-gradient-to-r from-charcoal to-graphite border-t border-graphite/40">
       <div class="max-w-7xl mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         <h3 class="text-xl md:text-2xl font-semibold">Ready to launch faster with a premium look?</h3>
@@ -462,7 +445,7 @@
     </div>
     <div class="border-t border-graphite/40 py-4 text-center text-xs text-soft">© 2025 GLOVANCE. All rights reserved.
     </div>
-  </footer> <!-- Lightbox Modal (Preview) -->
+  </footer> 
   <div id="lightbox" class="hidden fixed inset-0 z-50 bg-black/80 grid place-items-center p-4">
     <div class="relative w-full max-w-3xl rounded-xl bg-ink border border-graphite/60 shadow-2xl">
       <button id="closeLightbox"
@@ -471,21 +454,17 @@
         <h4 id="lightboxTitle" class="text-white font-semibold">Preview</h4>
         <div id="lightboxBody"
           class="mt-4 aspect-[16/9] rounded-lg bg-charcoal border border-graphite/50 grid place-items-center text-soft">
-          <!-- Placeholder content. Later: iframe demo or screenshots -->
           Preview goes here.
         </div>
       </div>
     </div>
   </div>
   <script>
-    // Mobile nav toggle
     const mobileToggle = document.getElementById('mobileToggle');
     const mobileNav = document.getElementById('mobileNav');
     mobileToggle.addEventListener('click', () => mobileNav.classList.toggle('hidden'));
-    // Close mobile menu when clicking a link
     mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileNav.classList.add('hidden')));
 
-    // Intersection Observer for reveal-on-scroll
     const revealEls = document.querySelectorAll('[data-reveal]');
     const io = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -498,7 +477,6 @@
     }, { threshold: 0.18 });
     revealEls.forEach(el => io.observe(el));
 
-    // Product sorting (client-side demo)
     const grid = document.getElementById('productGrid');
     const sortSel = document.getElementById('sort');
     sortSel?.addEventListener('change', () => {
@@ -507,13 +485,11 @@
       cards.sort((a, b) => {
         if (val === 'price-asc') return (+a.dataset.price) - (+b.dataset.price);
         if (val === 'price-desc') return (+b.dataset.price) - (+a.dataset.price);
-        // newest by date
         return new Date(b.dataset.date) - new Date(a.dataset.date);
       });
       cards.forEach(c => grid.appendChild(c));
     });
 
-    // Lightbox preview (placeholder)
     const lightbox = document.getElementById('lightbox');
     const closeLightbox = document.getElementById('closeLightbox');
     const titleEl = document.getElementById('lightboxTitle');
@@ -529,14 +505,6 @@
     });
     closeLightbox.addEventListener('click', () => lightbox.classList.add('hidden'));
     lightbox.addEventListener('click', (e) => { if (e.target === lightbox) lightbox.classList.add('hidden'); });
-
-    // Contact form (client-side dummy)
-    document.getElementById('contactForm').addEventListener('submit', (e) => {
-      e.preventDefault();
-      document.getElementById('contactNote').classList.remove('hidden');
-      // TODO: integrate Formspree/Netlify; or backend endpoint
-    });
-
     // Newsletter (dummy)
     document.getElementById('newsletter').addEventListener('submit', (e) => {
       e.preventDefault();
